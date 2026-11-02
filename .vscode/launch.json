@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Scrypted Debugger",
+      "type": "node",
+      "request": "attach",
+      "address": "${config:scrypted.debugHost}",
+      "port": 10081,
+      "preLaunchTask": "scrypted: deploy+debug",
+      "sourceMaps": true,
+      "localRoot": "${workspaceFolder}/out",
+      "remoteRoot": "/plugin/",
+      "skipFiles": ["<node_internals>/**"]
+    }
+  ]
+}
