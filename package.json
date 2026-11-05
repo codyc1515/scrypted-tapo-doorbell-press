@@ -2,6 +2,10 @@
   "name": "scrypted-tapo-doorbell-press",
   "version": "0.2.0",
   "description": "Local UDP doorbell press detection for TP-Link Tapo cameras in Scrypted",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codyc1515/scrypted-tapo-doorbell-press.git"
+  },
   "scripts": {
     "build": "scrypted-webpack",
     "scrypted-deploy": "scrypted-deploy",
